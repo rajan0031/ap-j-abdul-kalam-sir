@@ -1,0 +1,72 @@
+.card {
+  border-radius: 10px solid blue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+
+  /* text-shadow: 0 0 31px #ff0000, 0 0 5px #0000ff;
+} */
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  display: inline-block;
+  margin-left: 290px;
+  border-radius: 50%;
+}
+.img img {
+  margin-top: 10px;
+  border-radius: 48%;
+}
+.img span {
+  display: block;
+}
+
+.name {
+  text-align: end;
+  margin-right: 100px;
+}
+.name span {
+  text-shadow: 2px 2px 5px rgb(0, 162, 255);
+}
+
+h1 {
+  text-shadow: 2px 2px 5px rgb(0, 162, 255);
+}
+.content {
+  box-shadow: 15px 15px blue, 10px 10px red, 15px 15px green;
+  width: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px;
+  font-size: medium;
+  text-shadow: 0 4px 10px rgb(221, 21, 138);
+  overflow: visible;
+}
+
+.content h1 {
+  margin: 10px 30px 20px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900px;
+  font-size: 50px;
+  text-align: center;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(174, 243, 243);
+}
